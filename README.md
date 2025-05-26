@@ -31,6 +31,22 @@ This model matches measured mass values across the periodic table with high prec
 
 ---
 
+### Mass Operator Equation LaTeX
+
+The mass \( M \) of an isotope is calculated as:
+
+\[
+M = \int_0^R A_0 \cdot \sin(k_1 r) \cdot \sin(k_2 r) \cdot e^{-\gamma r} \, dr
+\]
+
+Where:
+- \( A_0 \) is the amplitude coefficient
+- \( k_1, k_2 \) are wave numbers
+- \( \gamma \) is the coherence compression factor
+- \( R \) is the outer integration boundary
+
+---
+
 ## Mass Equation
 
 The mass of a given isotope is calculated using:
