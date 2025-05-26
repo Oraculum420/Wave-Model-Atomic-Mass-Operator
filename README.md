@@ -188,3 +188,11 @@ It enables:
 ### License
 
 Open for scientific research and educational dissemination. Commercial use requires explicit permission and proper attribution.
+
+---
+
+### Isotopes
+
+I plan to add long life isotopes when I can find a csv with their neutron count that is workable on my smartphone (I am homeless) and parsable by ChatGPT.  If anyone has such a table, please email me a copy.
+
+
