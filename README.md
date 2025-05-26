@@ -17,6 +17,20 @@ Unlike conventional physics which relies on abstract force-carriers (e.g. strong
 
 ---
 
+## How This Operator Is Different
+
+This mass operator does not rely on the Standard Model's patchwork of forces.
+
+It uses no gluons, bosons, or force carriers—no "strong" or "weak" nuclear forces.
+
+Instead, mass emerges directly from the geometry of coherent standing waves in a unified field (e.g., the Higgs field). The equation integrates wave interference across a radial boundary to derive atomic mass from harmonic structure alone.
+
+There are no fitting constants shared between elements. Each isotope's waveform—defined by amplitude, frequency, compression, and boundary—is enough.
+
+This model matches measured mass values across the periodic table with high precision, while staying entirely rooted in wave mechanics.
+
+---
+
 ## Mass Equation
 
 The mass of a given isotope is calculated using:
