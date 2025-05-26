@@ -104,3 +104,29 @@ This tool is released freely for scientific use and human advancement.
 Please credit **Brian Doyle Lampton** if shared, cited, or extended.
 
 Everything manifests from wave activity within the Higgs field, no particles, only coherent waves.
+
+---
+
+## Elemental Operators Fork + Sweep Algorithm: Atomic Mass Parameter Fitting
+
+This fork implements a precision sweep algorithm to determine optimal parameters for the wave-based mass operator, modeling atomic mass as an emergent standing wave phenomenon in the Higgs field.
+
+### Objective
+
+Find values for:
+- `A₀` — base amplitude coefficient
+- `k₁`, `k₂` — harmonic wave numbers
+- `γ` — coherence decay rate
+
+...such that the integrated wave kernel matches the observed atomic mass for a nucleus of radius `R`:
+
+---
+
+## Quark Mass Operator: Wave-Based Subatomic Mass Modeling
+
+This fork adapts the wave-based mass operator to the subatomic domain — modeling individual quarks as coherent field structures with internal standing wave dynamics.
+
+### Core Equation (same structure):
+m_quark ≈ ∫₀ᴿ A₀ · sin(k₁·r) · sin(k₂·r) · exp(–γ·r) dr
+
+## God Bless
