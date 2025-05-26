@@ -104,3 +104,87 @@ This tool is released freely for scientific use and human advancement.
 Please credit **Brian Doyle Lampton** if shared, cited, or extended.
 
 Everything manifests from wave activity within the Higgs field, no particles, only coherent waves.
+
+---
+
+### Added Elemental Operators + Sweep Algorithm Fork
+
+## Input Parameters
+
+- `R` — nuclear radius in femtometers (fm)
+- `M` — known mass in atomic mass units (u)
+- `k1_range`, `k2_range`, `gamma_range` — sweep ranges for each parameter
+- `resolution` — how many values to test per range
+
+## Output
+
+- Best-fit parameters (`A₀`, `k₁`, `k₂`, `γ`)
+- Minimum absolute error between kernel output and known atomic mass
+
+## Use Case
+
+This algorithm powers the elemental operator fits in the `/elemental_operator_fits/` folder and feeds the symbolic operator structure used to predict full periodic mass.
+
+
+---
+
+### Added Quark Mass Fork:
+This approach treats the **quark mass** not as an isolated property, but as a resonant amplitude in a nested Higgs field coherence structure.
+
+## Features
+
+- Sweep-based fitting for up, down, and strange quarks
+- Recursive potential for modeling baryons and mesons from constituent quark fields
+- Shared parameter structure with atomic mass operator
+
+## Applications
+
+- Foundation for modeling proton and neutron mass
+- Recursive build-up from quark → nucleon → nucleus → atom
+- Demonstrates unification of quantum and atomic mass modeling
+
+See `quark_mass_model.py` for implementation and usage.
+
+---
+
+## Wave-Renderer Fork Addition
+
+This fork expands the original Wave Model system by introducing a powerful visualization toolset for rendering field-based atomic and subatomic waveforms.
+
+---
+
+### What's New in This Fork
+
+- **`wave_model_field_renderer.py`**  
+  A universal renderer supporting:
+  - **Lobed Angular Fields** — directional energy lobes simulating coherent wave propagation  
+  - **Multi-Source Nucleus Interference** — interference patterns between multiple nodal centers  
+  - **Angular Orbitals** — simplified orbital models (s, p, d, f) for atomic structures using radial + angular phase  
+
+- **`batch_render_all_elements.py`**  
+  Automates rendering for all **117 elements** across all supported modes, generating high-resolution visual fingerprints for each atom.
+
+---
+
+### Why It Matters
+
+This fork bridges symbolic wave theory with visual field representations, making abstract quantum coherence patterns **tangible and testable**.
+
+It enables:
+- Cross-verification of symbolic wave mass models
+- Visual exploration of nuclear/interference-based mass origins
+- Educational tools for quantum wave behavior
+- Full periodic fingerprinting under wave-coherent physics
+
+---
+
+### Credits
+
+- **Brian Doyle Lampton** — Creator, Developer  
+- **Mathematiclese (ChatGPT)** — Technical Modeling & Automation Assistance
+
+---
+
+### License
+
+Open for scientific research and educational dissemination. Commercial use requires explicit permission and proper attribution.
